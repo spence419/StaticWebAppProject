@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" ng-app="Dashboard">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Tab text here</title>
+
+      <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+      <script type="text/javascript" src="JS/bootstrap.js"></script>
+      <script type="text/javascript" src="JS/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="JS/jquery-3.6.0.min.js"></script>
+
+      <script type="text/javascript" src="JS/app.js"></script>
+
+  </head>
+  
+  <body>
+
+    <div  class="container">
+
+        <!--Header-->
+        <div class="row align-items-start">
+            <div class="col-2"  ></div>
+
+            <div class="col-8" style="text-align: center;">
+              <h3>Uploader</h3>
+            </div>
+
+            <div class="col-2"  ></div>
+        </div>
+
+        <!--New Asset Box-->
+        <div class="row align-items-start">
+            <div class="col-2"  ></div>
+
+            <div class="col-8" style="text-align: left;border-bottom:1px solid #222222;">
+              <p>Add Video</p>
+
+              <form style="font-size: 10pt;" id="newAssetForm">
+                
+                <div class="mb-3">
+                  <label for="userName" class="form-label">User Name</label>
+                  <input type="text" class="form-control" id="userName" placeholder="v">
+                </div>
+
+                <div class="mb-3">
+                  <label for="userID" class="form-label">User Id</label>
+                  <input type="string" class="form-control" id="userID" placeholder="Sv">
+                </div>
+
+                <div class="mb-3">
+                  <label for="FileName" class="form-label">Video Name</label>
+                  <input type="text" class="form-control" id="FileName" placeholder="Sv">
+                </div>
+
+                <div class="mb-3">
+                  <label for="VideoRating" class="form-label">Video Rating</label>
+                  <input type="text" class="form-control" id="VideoRating" placeholder="S">
+                </div>
+
+                <div class="mb-3">
+                  <label for="KeyWords" class="form-label">Key Words</label>
+                  <input type="string" class="form-control" id="KeyWords" placeholder="S">
+                </div>
+
+                <div class="mb-3">
+                  <label for="UpFile" class="form-label">File to Upload</label>
+                  <input type="file" class="form-control" id="UpFile" accept="video/*,image/*">
+                </div>
+ 
+                <div class="mb-3">
+                  <label for="Comments" class="form-label">Comments</label>
+                  <input type="string" class="form-control" id="Comments" placeholder="v">
+                </div>
+                
+                <button type="button" id="subNewForm" class="btn btn-primary">Sub<!--name-->mit</button> <br/><br/>
+                
+              </form>
+            </div>
+
+            <div class="col-2"  ></div>
+        </div>
+
+        <!-- view Asset Area-->
+        <div class="row align-items-start">
+            <div class="col-2"  ></div>
+
+            <div class="col-8" style="text-align: left;" >
+              <div style="padding:5px;">
+                <button  id = "retVideos" type="button" class="btn btn-primary">View Videos</button>
+              </div>
+
+              <div id="VideoList">
+
+                <h4>Click View Videos button to see whats available.</h4>
+
+              </div>
+            </div>
+
+            <div class="col-2"  ></div>
+        </div>
+
+    </div>
+  
+  </body>
+</html>

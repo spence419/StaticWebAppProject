@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../BelMet/2402-H&C/BM-html&css"
+		},
+		{
+			"path": "../../../../../w3ania"
+		},
+		{
+			"path": "../../../../../UUtube"
+		},
+		{
+			"path": "../../../../W6WebApp/W6WebApp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "W6WebApp"
+	}
+}
